@@ -1,4 +1,5 @@
 def square_array(array)
   # your code here
-  return array.each ** 2
+  squarray = Array.new(array.size)
+  return array.each {|val, index| }
 end
